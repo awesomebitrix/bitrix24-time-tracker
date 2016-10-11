@@ -89,7 +89,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="form-group is-empty">
-                    <label class="control-label" for="timeTo">Конец</label>
+                    <label class="control-label" for="timeTo">Затраченное время</label>
                     <input class="form-control" id="timeTo" type="text" value="00:00">
                 </div>
             </div>
@@ -105,13 +105,13 @@
                     <span class="help-block">Describe the project as better as you can.</span>
                 </div>
                 <br>
-                <button type="button" class="btn btn-raised btn-success addToCalender" id="submitCalendar">Add To Working Calendar</button>
+                <button type="button" class="btn btn-raised btn-success addToCalender" id="submitCalendar"><i class="material-icons">add_circle_outline</i></button>
             </div>
         </div>
 
         <div class="col-sm-6">
             <div class="alert alert-dismissible alert-info" id="infobox">
-                <p id="info">Please add working time.</p>
+                <p id="info">Пожалуйста, добавьте рабочее время.</p>
             </div>
 
             <div class="alert alert-dismissible alert-success" id="successbox">
@@ -140,121 +140,10 @@
 <script type="text/javascript" src="js/moment-with-locales.js"></script>
 <script type="text/javascript" src="js/bootstrap-material-datetimepicker.js"></script>
 <script type="text/javascript" src="js/application.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
 <script src="//api.bitrix24.com/api/v1/"></script>
 
-<script>
-
-
-    
-	$(document).ready(function () {
-
-        var today = new Date();
-        var dd = today.getDate();
-        var mm = today.getMonth()+1; //January is 0!
-
-        var yyyy = today.getFullYear();
-        if(dd<10){
-            dd='0'+dd
-        }
-        if(mm<10){
-            mm='0'+mm
-        }
-        var today = dd+'/'+mm+'/'+yyyy;
-        $('#date').val(today);
-
-
-	    $.material.init();
-
-        $("#tasks").dropdown({"optionClass": "biplane_options"});
-        $("#projects").dropdown({"optionClass": "biplane_options"});
-
-        $('#date').bootstrapMaterialDatePicker(
-                {
-                    weekStart : 0,
-                    nowButton: true,
-                    format: 'DD/MM/YYYY',
-                    lang : 'ru',
-                    time: false
-                }
-        );
-
-        $('#timeTo').bootstrapMaterialDatePicker(
-                {
-                    weekStart : 0,
-                    nowButton: false,
-                    format : 'HH:mm',
-                    lang : 'ru',
-                    date: false,
-                    shortTime: true,
-                    switchOnClick: true
-                }
-            ).on('change', function() {
-                    var hoursTo = parseInt( $('#timeTo').val().substr(0,2) );
-                    var minutesTo = parseInt( $('#timeTo').val().substr(3,4) );
-
-                    $('#info').html("<strong>You spent: </strong>" + hoursTo + " hours and " + minutesTo + " minutes.");
-                });
-
-        $('#timeFrom').bootstrapMaterialDatePicker(
-            {
-                weekStart : 0,
-                format : 'HH:mm',
-                lang : 'ru',
-                date: false
-            }).on('change', function(e, date) {
-                    $('#timeTo').bootstrapMaterialDatePicker('setMinDate', date);
-                });
-
-
-        var dataContainer = {
-            projectName: "1",
-            taskName: "2",
-            dateFrom: "3",
-            dateTo: "4",
-            description: "5"
-        };
-
-
-        function addToDataObject(dataContainer) {
-            var project = $("#projects option:selected").text();
-            var task = $("#tasks option:selected").text();
-            var timeTo = $("#timeTo").val();
-            var description = $("#description").val();
-
-            var dateYear = $("#date").val().substr(6,10);
-            var dateMonth = $("#date").val().substr(3,2);
-            var dateDay = $("#date").val().substr(0,2);
-
-            var date = dateYear + "-" + dateMonth + "-" + dateDay;
-
-            dataContainer.projectName = project;
-            dataContainer.taskName = task;
-            dataContainer.dateFrom = date + " 00:00";
-            dataContainer.dateTo = date + " " + timeTo;
-            dataContainer.description = description;
-            console.log(dataContainer);
-        }
-        $('textarea, input, select').on('change', function(){
-            addToDataObject(dataContainer);
-        });
-
-        $('#submitCalendar').click(function(){
-            $('#successbox').fadeIn('slow').delay('3000').fadeOut('slow');
-        });
-
-        BX24.init(function(){
-
-            app.displayCurrentUser('#user-name');
-            app.showProjects('#projects');
-            app.sendToCalendar('#submitCalendar', dataContainer);
-
-        });
-
-
-
-    });
-	
-</script>
 
 </body>
 </html>
