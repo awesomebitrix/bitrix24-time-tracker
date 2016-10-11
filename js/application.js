@@ -33,7 +33,7 @@ application.prototype.displayCurrentUser = function(selector) {
 								type: 'user',
 								ownerId: curapp.dataHolder.userId,
 								name: 'BiplaneERP ',
-								description: 'Description for section 1',
+								description: 'Work calendar for Biplane',
 								color: '#9cbeee',
 								text_color: '#283000',
 								export: [{ALLOW: true}],
@@ -45,10 +45,6 @@ application.prototype.displayCurrentUser = function(selector) {
 							});
 						}
 					} // end i for
-
-					$('#submitCalendar').click(function(){
-						console.log("clicked inside");
-					});
 				}
 			);
 	    }
@@ -73,6 +69,57 @@ application.prototype.showProjects = function (selection) {
 			}
 		}
 	);
+}
+
+application.prototype.sendToCalendar = function (button, dataContainer) {
+	BX24.callMethod(
+		'user.current',
+		{},
+		function(result){
+			var userID = result.data().ID;
+			$(button).click(function(){
+				console.log("clicked inside");
+				BX24.callMethod("calendar.section.get",
+					{
+						type: 'user',
+						ownerId: userID
+					},
+					function(result){
+						var data = result.data();
+						var sectionID = "0";
+						for (i in data) {
+							if (data[i].NAME === 'BiplaneERP') {
+								sectionID = data[i].ID;
+
+								BX24.callMethod("calendar.event.add",
+									{
+										type: 'user',
+										ownerId: userID,
+										name: dataContainer.projectName,
+										description: dataContainer.description,
+										location: dataContainer.taskName,
+										from: dataContainer.dateFrom,
+										to: dataContainer.dateTo,
+										skipTime: 'N',
+										section: sectionID,
+										color: '#9cbe1c',
+										text_color: '#283033',
+										accessibility: 'free',
+										importance: 'normal',
+										private_event: 'N',
+									}
+								);
+							} else {
+								return
+							}
+						} // end i for
+					}
+				);
+
+			});
+
+		});
+
 }
 
 // create our application

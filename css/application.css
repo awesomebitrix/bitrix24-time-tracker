@@ -23,6 +23,9 @@ select {
 }
 
 #errorbox,
-#successbox {
+#successbox,
+.left.p20,
+.right.p20{
     display: none;
 }
+

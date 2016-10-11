@@ -10184,13 +10184,13 @@
         },
         meridiem : function (hour, minute, isLower) {
             if (hour < 4) {
-                return 'ночи';
+                return '';
             } else if (hour < 12) {
-                return 'утра';
+                return '';
             } else if (hour < 17) {
-                return 'дня';
+                return '';
             } else {
-                return 'вечера';
+                return '';
             }
         },
         ordinalParse: /\d{1,2}-(й|го|я)/,
