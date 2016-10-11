@@ -1,0 +1,28 @@
+body {
+    background: #eef2f4;
+}
+#description {
+    width: 100%;
+    height: 150px;
+}
+
+input {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+.addToCalender {
+    width: 100%;
+}
+
+.biplane_options {
+    width: 300px;
+}
+
+#errorbox,
+#successbox {
+    display: none;
+}

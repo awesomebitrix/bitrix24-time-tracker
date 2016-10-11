@@ -1,7 +1,894 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="218b6ff9-96ee-4ccd-af19-87e5a541d68d" name="Default" comment="" />
+    <list default="true" id="218b6ff9-96ee-4ccd-af19-87e5a541d68d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example1/test.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/first.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/second.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/images/third.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10-type2/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/example10.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/first.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/second.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/images/third.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example10/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example11/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example12/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/bitrix24batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example13/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/bitrix24batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example14/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example15/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/bitrix24batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example16/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/bitrix24batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example17/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/bitrix24user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/example18.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/gen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/out.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/rating.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/rating_1st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/rating_2nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/rating_3d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/images/restapi.bitrix24.ru.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example18/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/example2.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example2/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example3/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4a/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example4b/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example5/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example6/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example7/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example8/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material-fullpalette.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material-fullpalette.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material-fullpalette.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material-fullpalette.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/material.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/ripples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/ripples.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/ripples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/ripples.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/roboto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/roboto.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/roboto.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/css/roboto.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftMedium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/fonts/RobotoDraftRegular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/install.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/accounting.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/material.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/ripples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/ripples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/ripples.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/example9/js/tempusjs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.access.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.bottom.menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.department.menu_ext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.left.menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.left.menu_ext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.section.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.top.menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.top.menu_ext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.top_links.menu.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="vagrant-bitrix24.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,31 +908,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/example2/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/example2/css/application.css">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/example2/js/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -60,6 +937,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -68,6 +948,11 @@
         <option value="$PROJECT_DIR$/examples/example2/js/application.js" />
         <option value="$PROJECT_DIR$/examples/example2/index.html" />
         <option value="$PROJECT_DIR$/examples/example2/css/application.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap-material-datetimepicker.css" />
+        <option value="$PROJECT_DIR$/js/bootstrap-material-datetimepicker.js" />
+        <option value="$PROJECT_DIR$/css/application.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/application.js" />
       </list>
     </option>
   </component>
@@ -108,7 +993,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,60 +1022,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example10" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example10" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -202,94 +1033,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example8" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example8" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vagrant-bitrix24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example2" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,13 +1042,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -367,18 +1115,19 @@
       <updated>1476087006664</updated>
       <workItem from="1476087008841" duration="15377000" />
       <workItem from="1476105740160" duration="8108000" />
-      <workItem from="1476116093597" duration="62000" />
+      <workItem from="1476116093597" duration="635000" />
+      <workItem from="1476164286450" duration="10412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23547000" />
+    <option name="totallyTimeSpent" value="34532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="963" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25581396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25887394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -413,7 +1162,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/example2/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -421,7 +1170,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/css/application.css">
+    <entry file="file://$PROJECT_DIR$/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
@@ -429,7 +1178,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/js/application.js">
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="52" column="34" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="34" />
@@ -437,7 +1186,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
@@ -445,7 +1194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/js/application.js">
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -453,96 +1202,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example3/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example3/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example10/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3222">
-          <caret line="586" column="14" selection-start-line="586" selection-start-column="8" selection-end-line="586" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example4a/js/material.js">
+    <entry file="file://$PROJECT_DIR$/examples/example3/index.html" />
+    <entry file="file://$PROJECT_DIR$/examples/example3/js/application.js" />
+    <entry file="file://$PROJECT_DIR$/examples/example1/index.html" />
+    <entry file="file://$PROJECT_DIR$/examples/example3/css/application.css" />
+    <entry file="file://$PROJECT_DIR$/examples/example10/js/application.js" />
+    <entry file="file://$PROJECT_DIR$/examples/example4a/js/material.js" />
+    <entry file="file://$PROJECT_DIR$/examples/example4a/js/application.js" />
+    <entry file="file://$PROJECT_DIR$/examples/example8/js/application.js" />
+    <entry file="file://$PROJECT_DIR$/examples/example8/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example4a/js/application.js">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-material-datetimepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example8/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/css/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="468">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/css/application.css">
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-material-datetimepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="573">
+          <caret line="868" column="37" selection-start-line="868" selection-start-column="37" selection-end-line="868" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/example2/index.html">
+    <entry file="file://$PROJECT_DIR$/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="450">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>
