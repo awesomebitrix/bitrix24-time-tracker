@@ -72,7 +72,7 @@ application.prototype.showProjects = function (selection) {
 	);
 }
 
-application.prototype.sendToCalendar = function (button, dataContainer) {
+application.prototype.sendToCalendar = function (button, dataContainer, table) {
 	BX24.callMethod(
 		'user.current',
 		{},
@@ -109,6 +109,16 @@ application.prototype.sendToCalendar = function (button, dataContainer) {
 											private_event: 'N',
 										}
 									);
+
+									$(table).append(
+										'<tr>' +
+										'<td class="col-sm-1"></td>' +
+										'<td class="col-sm-1">' + dataContainer.projectName + '</td>' +
+										'<td class="col-sm-1">' + dataContainer.taskName + '</td>' +
+										'<td class="col-sm-1">' + dataContainer.dateTo.substring(11,16) + '</td>' +
+										'<td class="col-sm-8">' + dataContainer.description + '</td>' +
+										'</td>'
+									);
 								}
 							} else {
 								return
@@ -119,8 +129,79 @@ application.prototype.sendToCalendar = function (button, dataContainer) {
 
 			});
 
-		});
+		}
+	);
+}
 
+application.prototype.getWorkList = function (selector, dataContainer, date ) {
+	BX24.callMethod(
+		'user.current',
+		{},
+		function(result){
+			var userID = result.data().ID;
+
+			BX24.callMethod("calendar.section.get",
+				{
+					type: 'user',
+					ownerId: userID
+				},
+				function(result){
+					var data = result.data();
+					var sectionID = "0";
+					for (i in data) {
+						if (data[i].NAME === 'BiplaneERP') {
+							sectionID = data[i].ID;
+
+							BX24.callMethod("calendar.event.get",
+								{
+									type: 'user',
+									ownerId: userID,
+									from: date,
+									to: date,
+									section: [sectionID]
+								}, function( result ){
+									var result = result.data();
+									var counter = 1;
+
+									if (result.length > 0) {
+										for (f in result) {
+											var mysqlFriendlyDateTO = result[f].DATE_TO;
+
+											var hoursTo = parseInt(mysqlFriendlyDateTO.substring(11,13));
+											var minutesTo = parseInt(mysqlFriendlyDateTO.substring(14,16));
+
+											var spentTime = hoursTo + ":" + minutesTo;
+
+											$(selector).append(
+												'<tr>' +
+												'<td class="col-sm-1">' + counter + '</td>' +
+												'<td class="col-sm-1">' + result[f].NAME + '</td>' +
+												'<td class="col-sm-1">' + result[f].LOCATION + '</td>' +
+												'<td class="col-sm-1">' + spentTime + '</td>' +
+												'<td class="col-sm-8">' + result[f].DESCRIPTION + '</td>' +
+												'</td>'
+											);
+
+											counter++;
+										}
+									} else {
+										$(selector).append('<tr><td colspan="5">Вы ничего не сделали сегодня!</td></tr>');
+									}
+
+
+
+
+
+								});
+
+						} else {
+							return
+						}
+					} // end i for
+				}
+			);
+		}
+	);
 }
 
 // create our application

@@ -12,6 +12,7 @@ $(document).ready(function () {
         mm='0'+mm
     }
     var today = dd+'/'+mm+'/'+yyyy;
+    var todayMySQLFriendly = yyyy + "-" + mm + "-" + dd;
     $('#date').val(today);
 
     // Init Material Design
@@ -96,8 +97,6 @@ $(document).ready(function () {
         } else {
             dataContainer.check = "1";
         }
-
-        console.log(dataContainer);
     }
 
     $('textarea, input, select').on('change', function(){
@@ -120,7 +119,8 @@ $(document).ready(function () {
 
         app.displayCurrentUser('#user-name');
         app.showProjects('#projects');
-        app.sendToCalendar('#submitCalendar', dataContainer);
+        app.sendToCalendar('#submitCalendar', dataContainer, '#work-list');
+        app.getWorkList('#work-list', dataContainer, todayMySQLFriendly);
 
 
         // Changing size of the Bitrix24 iframe

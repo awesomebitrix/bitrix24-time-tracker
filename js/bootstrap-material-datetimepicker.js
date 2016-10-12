@@ -1155,7 +1155,8 @@
               {
                  var h = (this.$dtpElement.height() - this.$dtpElement.find('.dtp-content').height()) / 2;
                  this.$dtpElement.find('.dtp-content').css('marginLeft', -(this.$dtpElement.find('.dtp-content').width() / 2) + 'px');
-                 this.$dtpElement.find('.dtp-content').css('top', h + 'px');
+
+                 this.$dtpElement.find('.dtp-content').css('top', 50 + 'px');
               },
               enableDays: function ()
               {
