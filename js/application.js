@@ -110,9 +110,11 @@ application.prototype.sendToCalendar = function (button, dataContainer, table) {
 										}
 									);
 
+									//$('#nothing-done').hide();
+
 									$(table).append(
 										'<tr>' +
-										'<td class="col-sm-1"></td>' +
+										'<td class="col-sm-1"><i class="material-icons">done</i></td>' +
 										'<td class="col-sm-1">' + dataContainer.projectName + '</td>' +
 										'<td class="col-sm-1">' + dataContainer.taskName + '</td>' +
 										'<td class="col-sm-1">' + dataContainer.dateTo.substring(11,16) + '</td>' +
@@ -133,7 +135,7 @@ application.prototype.sendToCalendar = function (button, dataContainer, table) {
 	);
 }
 
-application.prototype.getWorkList = function (selector, dataContainer, date ) {
+application.prototype.getWorkList = function (selector, info ) {
 	BX24.callMethod(
 		'user.current',
 		{},
@@ -146,24 +148,39 @@ application.prototype.getWorkList = function (selector, dataContainer, date ) {
 					ownerId: userID
 				},
 				function(result){
+
 					var data = result.data();
 					var sectionID = "0";
 					for (i in data) {
 						if (data[i].NAME === 'BiplaneERP') {
 							sectionID = data[i].ID;
+							var d = new Date();
+
+							// Yesterday's date converter
+							var todayTimeStamp = +new Date; // Unix timestamp in milliseconds
+							var oneDayTimeStamp = 1000 * 60 * 60 * 24; // Milliseconds in a day
+							var diff = todayTimeStamp - oneDayTimeStamp;
+							var yesterdayDate = new Date(diff);
+							var yesterdayString = yesterdayDate.getFullYear() + '-' + (yesterdayDate.getMonth() + 1) + '-' + yesterdayDate.getDate() + " 12:00";
 
 							BX24.callMethod("calendar.event.get",
 								{
 									type: 'user',
 									ownerId: userID,
-									from: date,
-									to: date,
+									from: yesterdayString,
 									section: [sectionID]
 								}, function( result ){
+
 									var result = result.data();
 									var counter = 1;
 
+									console.log(result.length);
+									console.log(yesterdayString);
+
 									if (result.length > 0) {
+
+										$(info).hide();
+
 										for (f in result) {
 											var mysqlFriendlyDateTO = result[f].DATE_TO;
 
@@ -184,14 +201,7 @@ application.prototype.getWorkList = function (selector, dataContainer, date ) {
 
 											counter++;
 										}
-									} else {
-										$(selector).append('<tr><td colspan="5">Вы ничего не сделали сегодня!</td></tr>');
 									}
-
-
-
-
-
 								});
 
 						} else {
