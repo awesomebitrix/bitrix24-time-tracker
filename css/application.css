@@ -2,6 +2,10 @@ body {
     background: #eef2f4;
 }
 
+.container {
+    width: 97%;
+}
+
 .app-frame {
     min-height: 800px !important;
 }
@@ -20,7 +24,7 @@ select {
 }
 
 .addToCalender {
-    width: 100%;
+    width: 80px;
 }
 
 .biplane_options {

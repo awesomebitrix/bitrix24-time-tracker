@@ -10,6 +10,7 @@ function application () {
 }
 
 application.prototype.displayCurrentUser = function(selector) {
+
 	var curapp = this;
 	BX24.callMethod(
         'user.current',
@@ -78,7 +79,6 @@ application.prototype.sendToCalendar = function (button, dataContainer) {
 		function(result){
 			var userID = result.data().ID;
 			$(button).click(function(){
-				console.log("clicked inside");
 				BX24.callMethod("calendar.section.get",
 					{
 						type: 'user',
@@ -90,25 +90,26 @@ application.prototype.sendToCalendar = function (button, dataContainer) {
 						for (i in data) {
 							if (data[i].NAME === 'BiplaneERP') {
 								sectionID = data[i].ID;
-
-								BX24.callMethod("calendar.event.add",
-									{
-										type: 'user',
-										ownerId: userID,
-										name: dataContainer.projectName,
-										description: dataContainer.description,
-										location: dataContainer.taskName,
-										from: dataContainer.dateFrom,
-										to: dataContainer.dateTo,
-										skipTime: 'N',
-										section: sectionID,
-										color: '#9cbe1c',
-										text_color: '#283033',
-										accessibility: 'free',
-										importance: 'normal',
-										private_event: 'N',
-									}
-								);
+								if (dataContainer.check === '1') {
+									BX24.callMethod("calendar.event.add",
+										{
+											type: 'user',
+											ownerId: userID,
+											name: dataContainer.projectName,
+											description: dataContainer.description,
+											location: dataContainer.taskName,
+											from: dataContainer.dateFrom,
+											to: dataContainer.dateTo,
+											skipTime: 'N',
+											section: sectionID,
+											color: '#9cbe1c',
+											text_color: '#283033',
+											accessibility: 'free',
+											importance: 'normal',
+											private_event: 'N',
+										}
+									);
+								}
 							} else {
 								return
 							}

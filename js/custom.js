@@ -68,7 +68,8 @@ $(document).ready(function () {
         taskName: "2",
         dateFrom: "3",
         dateTo: "4",
-        description: "5"
+        description: "5",
+        check: "0"
     };
 
     // Changing data inside 'dataContainer' object
@@ -89,6 +90,13 @@ $(document).ready(function () {
         dataContainer.dateFrom = date + " 00:00";
         dataContainer.dateTo = date + " " + timeTo;
         dataContainer.description = description;
+
+        if  ( dataContainer.dateTo === '' || dataContainer.description === '' ) {
+            dataContainer.check = "0";
+        } else {
+            dataContainer.check = "1";
+        }
+
         console.log(dataContainer);
     }
 
@@ -96,8 +104,15 @@ $(document).ready(function () {
         addToDataObject(dataContainer);
     });
 
+
+    // Checking if all fields are correctly filled
     $('#submitCalendar').click(function(){
-        $('#successbox').fadeIn('slow').delay('3000').fadeOut('slow');
+        if  ( dataContainer.check === '0' ) {
+            $('#errorbox').fadeIn('slow').delay('3000').fadeOut('slow');
+        } else {
+            $('#successbox').fadeIn('slow').delay('3000').fadeOut('slow');
+        }
+
     });
 
     // Bitrix API
@@ -107,8 +122,17 @@ $(document).ready(function () {
         app.showProjects('#projects');
         app.sendToCalendar('#submitCalendar', dataContainer);
 
+
+        // Changing size of the Bitrix24 iframe
+        var width = BX24.getScrollSize().scrollWidth;
+        var height = BX24.getScrollSize().scrollHeight;
+        void BX24.resizeWindow(width, height);
+
     });
 
 
-
+    $('.workarea-content-paddings').on('load', 'iframe', function() {
+        $(this).style.height = "1500px";
+        console.log("change");
+    })
 });
